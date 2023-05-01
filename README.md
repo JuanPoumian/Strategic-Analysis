@@ -2,7 +2,7 @@
 
 ![image](https://user-images.githubusercontent.com/114705723/235526593-e7961a19-00e7-4384-999b-b79ece18e80c.png)
 
-This project focuses on analyzing and visualizing historical stock data for a selection of companies and indices, providing insights into various stock market indicators and measures.
+This project analyzes and visualizes historical stock data in the U.S. for a selection of companies and indices, providing insights into various stock market indicators and measures.
 
 ## Features
 
