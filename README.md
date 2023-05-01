@@ -1,6 +1,6 @@
 # Stock Analysis and Visualization
 
-![image](https://user-images.githubusercontent.com/114705723/235273795-0709a0cb-a01b-4cfd-86f3-b6d42149a082.png)
+![image](https://user-images.githubusercontent.com/114705723/235526060-03aa7772-e60e-4585-a53d-3a6fe22cbddc.png)
 
 This project focuses on analyzing and visualizing historical stock data for a selection of companies and indices, providing insights into various stock market indicators and measures.
 
