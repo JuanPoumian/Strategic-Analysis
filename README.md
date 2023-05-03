@@ -21,6 +21,17 @@ Programming language: Python
 - seaborn
 - ta
 - fredapi
+- idea = # Define the purpose of each library
+"""
+datetime: provides classes for working with dates and times.
+yfinance: allows downloading stock data from Yahoo Finance.
+pandas: provides data structures and tools for data manipulation and analysis.
+numpy: provides arrays and numerical operations for data analysis.
+ta: provides technical indicators for financial analysis.
+scipy.optimize: provides optimization algorithms for numerical optimization.
+matplotlib: provides plotting functionality.
+seaborn: provides higher-level interface for visualizing data.
+"""
 
 ## Column Descriptions
 
