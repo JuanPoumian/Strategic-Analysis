@@ -2,36 +2,51 @@
 
 ![image](https://user-images.githubusercontent.com/114705723/235526593-e7961a19-00e7-4384-999b-b79ece18e80c.png)
 
-The objective of this project is to analyze and compare the performance of various investment strategies applied to a selection of U.S. equities and indices. The project involves retrieving historical stock data for selected tickers, calculating a range of technical indicators, and developing both passive (Buy-and-Hold) and active (technical indicator-based) investment strategies. The performance of these strategies will be assessed over multiple investment horizons, and their returns and associated risk will be statistically analyzed and visually represented. This comprehensive study aims to provide insights into the efficacy of different investment strategies in the context of the selected stocks, fostering a deeper understanding of strategic decision-making in equity investments.
+This project takes a comprehensive dive into the realm of investment strategies, benchmarking their efficacy when applied to a carefully chosen range of U.S. equities and indices. The scope of the study includes the following tickers: 'AAPL' (Apple Inc.), 'MSFT' (Microsoft Corporation), 'AMZN' (Amazon.com, Inc.), 'GOOGL' (Alphabet Inc.), 'TSLA' (Tesla, Inc.), 'SPY' (SPDR S&P 500 ETF Trust), and 'QQQ' (Invesco QQQ Trust).
 
-## Features
+The methodology employed in this project is multi-pronged, encompassing the retrieval of historical stock data, the computation of an array of technical indicators, and the development of both passive and active investment strategies.
 
-- Retrieve historical stock data for selected tickers (e.g., AAPL, MSFT, AMZN, GOOGL, SPY, QQQ, TSLA)
-- Compute various technical indicators, such as Moving Averages, Bollinger Bands, MACD, RSI, and more
-- Conduct statistical analysis on stock returns, volatility, and correlations
-- Generate plots for stock price history, return distributions, and technical indicators
-- Perform event studies on economic indicators
+The efficacy of these strategies is scrutinized across multiple investment time frames. Their returns and associated risk profiles are subject to rigorous statistical analysis and are visually represented for a more intuitive understanding.
 
-## Libraries Used
-Programming language: Python
-- yfinance
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- ta
-- fredapi
-- idea = # Define the purpose of each library
-"""
-datetime: provides classes for working with dates and times.
-yfinance: allows downloading stock data from Yahoo Finance.
-pandas: provides data structures and tools for data manipulation and analysis.
-numpy: provides arrays and numerical operations for data analysis.
-ta: provides technical indicators for financial analysis.
-scipy.optimize: provides optimization algorithms for numerical optimization.
-matplotlib: provides plotting functionality.
-seaborn: provides higher-level interface for visualizing data.
-"""
+This project is an endeavor to illuminate the relative performance of different investment strategies and to foster a more profound understanding of strategic decision-making in equity investments. The ultimate goal is to provide valuable insights that can guide investors in making informed decisions about their investment approaches.
+
+## Features 
+
+- 1. **Data Retrieval**: Retrieves historical stock data and computes various technical indicators including Simple Moving Averages (SMA), Exponential Moving Averages (EMA), Bollinger Bands, Moving Average Convergence Divergence (MACD), Relative Strength Index (RSI), and Average True Range (ATR).
+- 2. **Data Analysis**: Conducts statistical analysis on stock returns, volatility, and correlations. Also provides stock betas and computes returns and volatility over a customizable window.
+- 3. **Data Visualization**:  Generates visual plots for stock price history, return distributions, and technical indicators, offering a clear visual understanding of stock performance and movements over time.
+- 4. **Investment Strategy Analysis**: Compares the performance of passive and active investment strategies on the selected stocks, including strategies like Buy-and-Hold (passive) and technical indicator-based trading rules (active).
+
+## Usage
+
+*The project is organized into several functions that handle tasks such as data retrieval, computation of technical indicators, data cleaning, data saving, and plotting of data and indicators.
+
+*The project starts with defining the tickers of interest and the date range for which historical data is needed. The data is then downloaded, cleaned, and processed to calculate returns, volatility, and other technical indicators. The results are stored in separate dataframes for each ticker and also combined into a single dataframe for further analysis.
+
+*The project also includes several plotting functions that provide visualizations of the historical price data, return distributions, and technical indicators for each stock and index.
+
+*Lastly, the project checks for missing values in the data and calculates summary statistics, providing an overview of the distribution of returns and relation for each stock.
+
+## Data Saving
+The processed data is saved into Excel files for future reference and further analysis. Both individual and combined dataframes are saved.
+
+## Conclusion
+This project serves as a comprehensive tool for analyzing and comparing different investment strategies on selected equities. It provides both analytical and visual insights into the performance of these stocks, enabling users to make informed decisions about their investment strategies. Additionally, it lays a solid groundwork for building more complex trading algorithms and models.
+
+## Future Work
+While the project currently provides a robust analysis of selected stocks using predefined strategies, there's always room for enhancement. Future work could involve integrating more advanced trading strategies, incorporating machine learning algorithms for stock price prediction, or expanding the scope of the project to include other asset classes such as commodities, bonds, or cryptocurrencies.
+
+## Requirements
+
+The project uses Python as its core programming language, along with several libraries to aid in data retrieval, analysis, and visualization. These include:
+- datetime: for handling date and time data.
+- yfinance: to retrieve historical market data from Yahoo Finance.
+- pandas: for data manipulation and analysis.
+- numpy: for numerical computations.
+- matplotlib and seaborn: for data visualization.
+- ta: for technical analysis and computation of technical indicators.
+- fredapi: to access economic data from the Federal Reserve Bank of St. Louis.
+- scipy: for scientific and technical computing.
 
 ## Column Descriptions
 
@@ -55,9 +70,3 @@ seaborn: provides higher-level interface for visualizing data.
 - **MACD Signal**: MACD signal line, calculated as the 9-day exponential moving average of the MACD
 - **Beta**: Stock beta coefficient, a measure of the stock's volatility relative to the overall market
 - **Ticker**: Stock's ticker symbol
-
-## How to Use
-
-1. Set the desired tickers, start date, and end date for the historical data in the tickers, start_date, and end_date variables.
-2. Run the script to collect historical data, calculate technical indicators, and perform statistical analysis.
-3. Visualize the data using the provided plotting functions to gain insights into stock performance and market trends.
