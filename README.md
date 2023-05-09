@@ -27,6 +27,20 @@ This project is an endeavor to illuminate the relative performance of different 
 
 ![correlation](https://user-images.githubusercontent.com/114705723/236968584-45173819-54e9-47a9-bdde-9bedc2f7a858.png)
 
+## Incorporating Event Study Analysis on Economic Indicators
+
+In the larger context of my data analysis project, I've incorporated an event study methodology, using economic indicators from the Federal Reserve Economic Data (FRED). This approach allows me to examine how specific events impact various economic indicators over time.
+
+Data Acquisition and Preparation: To incorporate this analysis, I first retrieve time-series data for specific economic indicators within a certain date range. I use the FRED API to fetch this data.
+
+Event Study Analysis: The event study methodology is then applied to the historical data. This process involves identifying an 'event window' around a specific date (the 'event date') and analyzing the behavior of the economic indicator during this window.
+
+The event window is defined as a certain number of periods before and after the event date. This allows me to study the effect of the event on the economic indicator, both in terms of its immediate impact (post-event) and its anticipation (pre-event).
+
+I repeat this analysis for each event date, calculating daily returns within each event window, and then average the results across all event windows. This provides a representative picture of how the economic indicator typically reacts to the event.
+
+This study provides a more comprehensive perspective on the performance of various economic indicators during significant economic events, enhancing our understanding of these indicators' reactions and the broader economic landscape.
+
 ## Usage
 
 *The project is organized into several functions that handle tasks such as data retrieval, computation of technical indicators, data cleaning, data saving, and plotting of data and indicators.
