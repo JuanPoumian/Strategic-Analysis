@@ -17,6 +17,16 @@ This project is an endeavor to illuminate the relative performance of different 
 - 3. **Data Visualization**:  Generates visual plots for stock price history, return distributions, and technical indicators, offering a clear visual understanding of stock performance and movements over time.
 - 4. **Investment Strategy Analysis**: Compares the performance of passive and active investment strategies on the selected stocks, including strategies like Buy-and-Hold (passive) and technical indicator-based trading rules (active).
 
+## Delving into Insights: A Visual Showcase from My Exploratory Data Analysis Journey
+
+![distribution](https://user-images.githubusercontent.com/114705723/236968375-38c66b04-5ec1-4dc9-9507-8f9a7021cd10.png)
+
+![historical_price](https://user-images.githubusercontent.com/114705723/236968487-53fd7b4b-8f83-4317-8cdc-9afd9cb14290.png)
+
+![rsi](https://user-images.githubusercontent.com/114705723/236968545-fdce6023-8ccd-4ccf-b9ed-bab5c2dbafb0.png)
+
+![correlation](https://user-images.githubusercontent.com/114705723/236968584-45173819-54e9-47a9-bdde-9bedc2f7a858.png)
+
 ## Usage
 
 *The project is organized into several functions that handle tasks such as data retrieval, computation of technical indicators, data cleaning, data saving, and plotting of data and indicators.
