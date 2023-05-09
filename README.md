@@ -1,8 +1,8 @@
-# Stock Analysis and Visualization
+# Strategic Analysis of Equity Investment Performance: A Comparative Study of Passive and Active Strategies
 
 ![image](https://user-images.githubusercontent.com/114705723/235526593-e7961a19-00e7-4384-999b-b79ece18e80c.png)
 
-This project analyzes and visualizes historical stock data in the U.S. for a selection of companies and indices, providing insights into various stock market indicators and measures.
+The objective of this project is to analyze and compare the performance of various investment strategies applied to a selection of U.S. equities and indices. The project involves retrieving historical stock data for selected tickers, calculating a range of technical indicators, and developing both passive (Buy-and-Hold) and active (technical indicator-based) investment strategies. The performance of these strategies will be assessed over multiple investment horizons, and their returns and associated risk will be statistically analyzed and visually represented. This comprehensive study aims to provide insights into the efficacy of different investment strategies in the context of the selected stocks, fostering a deeper understanding of strategic decision-making in equity investments.
 
 ## Features
 
