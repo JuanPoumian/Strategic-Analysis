@@ -27,6 +27,10 @@ This project is an endeavor to illuminate the relative performance of different 
 
 ![correlation](https://user-images.githubusercontent.com/114705723/236968584-45173819-54e9-47a9-bdde-9bedc2f7a858.png)
 
+![QQQ_MACD_EMA_strategy](https://github.com/JuanPoumian/Stock-Analysis-and-Visualization/assets/114705723/8bd2b8c5-129f-4fa4-8d7d-7be3780f2f8c)
+
+![bollinger_bands](https://github.com/JuanPoumian/Stock-Analysis-and-Visualization/assets/114705723/2b54c6ac-022c-4ada-bde9-ea83cb48e796)
+
 ## Event Study Analysis for Economic Indicators
 
 As a key facet of my comprehensive data analysis project, I've applied an innovative technique known as event study analysis. This approach is specifically applied to three economic indicators obtained from the Federal Reserve Economic Data (FRED): Gross Domestic Product (GDP), Unemployment Rate (UNRATE), and Consumer Price Index for All Urban Consumers (CPIAUCSL). This analysis allows me to delve into the effects of certain events on these indicators, offering a profound understanding of economic trends and fluctuations.
@@ -100,7 +104,7 @@ This part of the document presents the results of an optimization study conducte
 
 **The optimization was applied to the following stock tickers: AAPL, MSFT, AMZN, GOOGL, TSLA, SPY, and QQQ.**
 
-### Evaluation Metrics
+#### Evaluation Metrics
 
 The performance of each strategy was evaluated based on several metrics:
 
@@ -111,11 +115,11 @@ The performance of each strategy was evaluated based on several metrics:
 
 These metrics provide a comprehensive view of each strategy's performance, allowing us to balance returns against risk.
 
-### Optimization Parameters
+#### Optimization Parameters
 
 The best RSI parameters found were 80 for the overbought level and 35 for the oversold level. For the MACD-EMA strategy, the optimal parameters were a short EMA of 15 days and a long EMA of 100 days.
 
-### Optimization Results
+#### Optimization Results
 
 **Apple Inc. (AAPL)**: The MACD-EMA strategy outperformed the RSI strategy with a total return of 46.72%, compared to RSI's 24.50%. The Sharpe Ratio was higher for the MACD-EMA strategy (14.17 vs -23.28), indicating better risk-adjusted returns.
 
