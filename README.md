@@ -27,21 +27,28 @@ This project is an endeavor to illuminate the relative performance of different 
 
 ![correlation](https://user-images.githubusercontent.com/114705723/236968584-45173819-54e9-47a9-bdde-9bedc2f7a858.png)
 
-## Incorporating Event Study Analysis on Economic Indicators
+## Event Study Analysis for Economic Indicators
 
-In the larger context of my data analysis project, I've incorporated an event study methodology, using economic indicators from the Federal Reserve Economic Data (FRED). This approach allows me to examine how specific events impact various economic indicators over time.
+As a key facet of my comprehensive data analysis project, I've applied an innovative technique known as event study analysis. This approach is specifically applied to three economic indicators obtained from the Federal Reserve Economic Data (FRED): Gross Domestic Product (GDP), Unemployment Rate (UNRATE), and Consumer Price Index for All Urban Consumers (CPIAUCSL). This analysis allows me to delve into the effects of certain events on these indicators, offering a profound understanding of economic trends and fluctuations.
 
-Data Acquisition and Preparation: To incorporate this analysis, I first retrieve time-series data for specific economic indicators within a certain date range. I use the FRED API to fetch this data.
+Data Procurement and Refinement: The journey of this analysis starts with procuring time-series data for our chosen economic indicators - GDP, UNRATE, and CPIAUCSL, over a predetermined date range. To make this process efficient and seamless, I harness the power of the FRED API for reliable data extraction.
 
-Event Study Analysis: The event study methodology is then applied to the historical data. This process involves identifying an 'event window' around a specific date (the 'event date') and analyzing the behavior of the economic indicator during this window.
+Application of Event Study Analysis: After gathering the necessary data, I deploy the event study methodology on this historical dataset. The process requires identification of an 'event window' around a specific date, the 'event date', and a thorough examination of each economic indicator's behaviour within this window.
 
-The event window is defined as a certain number of periods before and after the event date. This allows me to study the effect of the event on the economic indicator, both in terms of its immediate impact (post-event) and its anticipation (pre-event).
+The event window encompasses a specific number of periods both prior to and following the event date. This structured approach permits an exhaustive investigation into the event's impact on each economic indicator, considering both the aftermath (post-event) and the anticipatory period (pre-event).
 
-I repeat this analysis for each event date, calculating daily returns within each event window, and then average the results across all event windows. This provides a representative picture of how the economic indicator typically reacts to the event.
+This analytical process is replicated across each event date, with daily returns calculated within each event window. The returns are then averaged across all event windows, producing a representative illustration of each economic indicator's typical response to the event.
 
-This study provides a more comprehensive perspective on the performance of various economic indicators during significant economic events, enhancing our understanding of these indicators' reactions and the broader economic landscape.
+The culmination of this rigorous event study provides a panoramic view of the performance of the GDP, UNRATE, and CPIAUCSL during significant economic events. This broadens our understanding of the reaction of these specific indicators and the overarching economic climate, proving invaluable for informed economic and financial decision-making.
 
-## Usage
+![CPIAUCSL_event_study](https://github.com/JuanPoumian/Stock-Analysis-and-Visualization/assets/114705723/dc2f7157-4c91-4ad8-a2fe-0dd229f31f36)
+
+![UNRATE_event_study](https://github.com/JuanPoumian/Stock-Analysis-and-Visualization/assets/114705723/93164d42-7534-4fe0-be79-c44dd71ede0f)
+
+[GDP_event_study](https://github.com/JuanPoumian/Stock-Analysis-and-Visualization/assets/114705723/947a323c-8607-480d-855e-d65820c00029)
+
+## Usage!
+
 
 *The project is organized into several functions that handle tasks such as data retrieval, computation of technical indicators, data cleaning, data saving, and plotting of data and indicators.
 
