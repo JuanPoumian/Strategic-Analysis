@@ -13,9 +13,11 @@ This project is an endeavor to illuminate the relative performance of different 
 ## Features 
 
 - 1. **Data Retrieval**: Retrieves historical stock data and computes various technical indicators including Simple Moving Averages (SMA), Exponential Moving Averages (EMA), Bollinger Bands, Moving Average Convergence Divergence (MACD), Relative Strength Index (RSI), and Average True Range (ATR).
-- 2. **Data Analysis**: Conducts statistical analysis on stock returns, volatility, and correlations. Also provides stock betas and computes returns and volatility over a customizable window.
-- 3. **Data Visualization**:  Generates visual plots for stock price history, return distributions, and technical indicators, offering a clear visual understanding of stock performance and movements over time.
-- 4. **Investment Strategy Analysis**: Compares the performance of passive and active investment strategies on the selected stocks, including strategies like Buy-and-Hold (passive) and technical indicator-based trading rules (active).
+- 2. **Data Cleaning**: Ensures that the retrieved data is clean, accurate, and ready for analysis. This includes handling missing data and checking for data consistency.
+- 3. **Data Analysis**: Conducts statistical analysis on stock returns, volatility, and correlations. Also provides stock betas and computes returns and volatility over a customizable window.
+- 4. **Event Study Analysis for Economic Indicators**: This feature retrieves data for specified economic indicators, performs an event study around significant dates, calculates daily returns, and visualizes the average returns along with their variability. It effectively handles missing data for robust analysis.
+- 5. **Data Visualization**:  Generates visual plots for stock price history, return distributions, and technical indicators, offering a clear visual understanding of stock performance and movements over time.
+- 6. **Investment Strategy Analysis**: Compares the performance of passive and active investment strategies on the selected stocks, including strategies like Buy-and-Hold (passive) and technical indicator-based trading rules (active).
 
 ## Delving into Insights: A Brief Visual Showcase from My Exploratory Data Analysis Journey
 
@@ -53,7 +55,7 @@ The culmination of this rigorous event study provides a panoramic view of the pe
 
 ## Passive Strategy
 
-Result of My Analysis of Buy and Hold Returns for Selected Stocks.
+**Result of My Analysis of Buy and Hold Returns for Selected Stocks**
 
 The analysis for the 1-year period demonstrates a varying landscape of returns:
 
@@ -96,15 +98,15 @@ The investigation of these returns, along with the detailed examination of other
 
 ## Active Strategies
 
-Trading Strategy Optimization Results: RSI and MACD-EMA
-This part of the document presents the results of an optimization study conducted on two trading strategies:
+**Trading Strategy Optimization Results: RSI and MACD-EMA**
 
+This part of the document presents the results of an optimization study conducted on two trading strategies:
 1. RSI (Relative Strength Index)
 2. MACD-EMA (Moving Average Convergence Divergence - Exponential Moving Average)
 
-**The optimization was applied to the following stock tickers: AAPL, MSFT, AMZN, GOOGL, TSLA, SPY, and QQQ.**
+The optimization was applied to the following stock tickers: AAPL, MSFT, AMZN, GOOGL, TSLA, SPY, and QQQ.
 
-#### Evaluation Metrics
+**Evaluation Metrics**:
 
 The performance of each strategy was evaluated based on several metrics:
 
@@ -115,11 +117,11 @@ The performance of each strategy was evaluated based on several metrics:
 
 These metrics provide a comprehensive view of each strategy's performance, allowing us to balance returns against risk.
 
-#### Optimization Parameters
+**Optimization Parameters**:
 
 The best RSI parameters found were 80 for the overbought level and 35 for the oversold level. For the MACD-EMA strategy, the optimal parameters were a short EMA of 15 days and a long EMA of 100 days.
 
-#### Optimization Results
+**Optimization Results**:
 
 **Apple Inc. (AAPL)**: The MACD-EMA strategy outperformed the RSI strategy with a total return of 46.72%, compared to RSI's 24.50%. The Sharpe Ratio was higher for the MACD-EMA strategy (14.17 vs -23.28), indicating better risk-adjusted returns.
 
