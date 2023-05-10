@@ -92,16 +92,15 @@ The investigation of these returns, along with the detailed examination of other
 
 ## Active Strategies
 
-# Trading Strategy Optimization Results: RSI and MACD-EMA 
-
-This document presents the results of an optimization study conducted on two trading strategies:
+Trading Strategy Optimization Results: RSI and MACD-EMA
+This part of the document presents the results of an optimization study conducted on two trading strategies:
 
 1. RSI (Relative Strength Index)
 2. MACD-EMA (Moving Average Convergence Divergence - Exponential Moving Average)
 
-The optimization was applied to the following stock tickers: AAPL, MSFT, AMZN, GOOGL, TSLA, SPY, and QQQ.
+**The optimization was applied to the following stock tickers: AAPL, MSFT, AMZN, GOOGL, TSLA, SPY, and QQQ.**
 
-## Evaluation Metrics
+### Evaluation Metrics
 
 The performance of each strategy was evaluated based on several metrics:
 
@@ -112,11 +111,11 @@ The performance of each strategy was evaluated based on several metrics:
 
 These metrics provide a comprehensive view of each strategy's performance, allowing us to balance returns against risk.
 
-## Optimization Parameters
+### Optimization Parameters
 
 The best RSI parameters found were 80 for the overbought level and 35 for the oversold level. For the MACD-EMA strategy, the optimal parameters were a short EMA of 15 days and a long EMA of 100 days.
 
-## Optimization Results
+### Optimization Results
 
 **Apple Inc. (AAPL)**: The MACD-EMA strategy outperformed the RSI strategy with a total return of 46.72%, compared to RSI's 24.50%. The Sharpe Ratio was higher for the MACD-EMA strategy (14.17 vs -23.28), indicating better risk-adjusted returns.
 
@@ -133,6 +132,9 @@ The best RSI parameters found were 80 for the overbought level and 35 for the ov
 **Invesco QQQ Trust (QQQ)**: The RSI strategy delivered a higher total return of 2.04%, but the MACD-EMA strategy had a higher Sharpe Ratio of 12.80, indicating better risk-adjusted returns.
 
 These results demonstrate the importance of parameter optimization and strategy selection for different stocks. It's crucial to note that past performance does not guarantee future results. Therefore, these strategies should be tested on out-of-sample data before live trading.
+
+A Brief Visual Showcase from Analysis
+
 
 ## Usage!
 
