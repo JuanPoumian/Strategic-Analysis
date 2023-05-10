@@ -52,11 +52,11 @@ The culmination of this rigorous event study provides a panoramic view of the pe
 Result of My Analysis of Buy and Hold Returns for Selected Stocks.
 
 The analysis for the 1-year period demonstrates a varying landscape of returns:
--. Apple (AAPL) yielded a total return of 8.38% with an annualized return of 8.57%.
--. Microsoft (MSFT) outperformed with a total return of 12.94% and an annualized return of 13.25%.
--. Amazon (AMZN) and Google (GOOGL) experienced negative returns, with Amazon's total and annualized returns at -8.12% and -8.30% respectively, while Google's returns stood at -7.26% (total) and -7.42% (annualized).
--. Tesla (TSLA) saw the most significant negative return, with a total return of -43.06% and an annualized return of -43.77%.
--. The market indices SPY and QQQ returned positively, with SPY earning 2.83% (total) and 2.89% (annualized), while QQQ gained 5.11% (total) and 5.22% (annualized).
+- Apple (AAPL) yielded a total return of 8.38% with an annualized return of 8.57%.
+- Microsoft (MSFT) outperformed with a total return of 12.94% and an annualized return of 13.25%.
+- Amazon (AMZN) and Google (GOOGL) experienced negative returns, with Amazon's total and annualized returns at -8.12% and -8.30% respectively, while Google's returns stood at -7.26% (total) and -7.42% (annualized).
+- Tesla (TSLA) saw the most significant negative return, with a total return of -43.06% and an annualized return of -43.77%.
+- The market indices SPY and QQQ returned positively, with SPY earning 2.83% (total) and 2.89% (annualized), while QQQ gained 5.11% (total) and 5.22% (annualized).
 
 Buy and Hold Returns for the 3-Year Period:
 Over the 3-year period, the returns showed a more positive trend:
