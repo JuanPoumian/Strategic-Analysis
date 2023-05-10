@@ -47,8 +47,39 @@ The culmination of this rigorous event study provides a panoramic view of the pe
 
 ![GDP_event_study](https://github.com/JuanPoumian/Stock-Analysis-and-Visualization/assets/114705723/7a77394a-7bf9-40ed-89bc-f997d0be9439)
 
+## Passive Strategy
 
+Result of My Analysis of Buy and Hold Returns for Selected Stocks.
 
+The analysis for the 1-year period demonstrates a varying landscape of returns:
+-. Apple (AAPL) yielded a total return of 8.38% with an annualized return of 8.57%.
+-. Microsoft (MSFT) outperformed with a total return of 12.94% and an annualized return of 13.25%.
+-. Amazon (AMZN) and Google (GOOGL) experienced negative returns, with Amazon's total and annualized returns at -8.12% and -8.30% respectively, while Google's returns stood at -7.26% (total) and -7.42% (annualized).
+-. Tesla (TSLA) saw the most significant negative return, with a total return of -43.06% and an annualized return of -43.77%.
+-. The market indices SPY and QQQ returned positively, with SPY earning 2.83% (total) and 2.89% (annualized), while QQQ gained 5.11% (total) and 5.22% (annualized).
+
+Buy and Hold Returns for the 3-Year Period:
+Over the 3-year period, the returns showed a more positive trend:
+-. AAPL stood out with a total return of 130.25% and an impressive annualized return of 32.32%.
+-. MSFT also performed well, returning 73.10% in total and 20.23% on an annualized basis.
+-. AMZN underperformed with a negative total return of -10.30% and an annualized return of -3.59%.
+-. GOOGL and TSLA provided robust returns, with GOOGL returning 59.56% (total) and 16.99% (annualized), while TSLA skyrocketed with a total return of 214.94% and an annualized return of 46.99%.
+-. The market indices, SPY and QQQ, also returned positively, with SPY earning 53.18% (total) and 15.40% (annualized), while QQQ gained 49.85% (total) and 14.55% (annualized).
+
+Buy and Hold Returns for the 5-Year Period:
+In the 5-year period, the returns were predominantly positive:
+-. AAPL continued its strong performance with a total return of 284.51% and an annualized return of 31.07%.
+-. MSFT also showed strong returns, with a total return of 238.35% and an annualized return of 27.74%.
+-. AMZN provided a modest total return of 31.80% and an annualized return of 5.70%.
+-. GOOGL returned 102.63% in total and 15.24% on an annualized basis.
+-. TSLA was the clear standout, with a stunning total return of 714.03% and an annualized return of 52.38%.
+-. The market indices, SPY and QQQ, also returned positively, with SPY earning 69.69% (total) and 11.21% (annualized), while QQQ gained 100.82% (total) and 15.03% (annualized).
+
+This in-depth analysis of buy and hold returns offers a comprehensive understanding of the performance of these stocks and market indices over various time periods. It provides a clear picture of the long-term profitability of these investments, with some companies such as Apple (AAPL) and Microsoft (MSFT) consistently performing well across all periods. On the other hand, companies like Tesla (TSLA) show higher volatility, with exceptional returns in the longer term despite short-term losses.
+
+This analysis serves as a valuable tool for making informed investment decisions and understanding market trends. It also highlights the importance of considering the time horizon in investment strategies. While some stocks may underperform in the short term, they may yield significant returns over a longer period, underlining the potential advantages of a buy and hold strategy.
+
+The investigation of these returns, along with the detailed examination of other market indicators, forms a core part of my data analysis project, aimed at providing a holistic understanding of the financial market landscape.
 
 ## Usage!
 
