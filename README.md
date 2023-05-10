@@ -139,8 +139,11 @@ The best RSI parameters found were 80 for the overbought level and 35 for the ov
 
 These results demonstrate the importance of parameter optimization and strategy selection for different stocks. It's crucial to note that past performance does not guarantee future results. Therefore, these strategies should be tested on out-of-sample data before live trading.
 
-A Brief Visual Showcase from Analysis
+Here's a glimpse of the charts I've generated, with Apple as an example:
 
+![AAPL_MACD_EMA_strategy](https://github.com/JuanPoumian/Stock-Analysis-and-Visualization/assets/114705723/ee392972-95b4-4d1b-bfb1-daf8211de3ec)
+
+![AAPL_RSI_strategy](https://github.com/JuanPoumian/Stock-Analysis-and-Visualization/assets/114705723/c36a64d1-e4af-4a89-a79a-c72680348f9c)
 
 ## Usage!
 
