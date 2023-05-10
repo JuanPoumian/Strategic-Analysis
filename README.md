@@ -90,7 +90,49 @@ The investigation of these returns, along with the detailed examination of other
 
 ![5-Year_Buy_and_Hold_Returns](https://github.com/JuanPoumian/Stock-Analysis-and-Visualization/assets/114705723/ba1b2cb6-e31d-4722-90d2-a8778f24c9f7)
 
+## Active Strategies
 
+# Trading Strategy Optimization Results: RSI and MACD-EMA 
+
+This document presents the results of an optimization study conducted on two trading strategies:
+
+1. RSI (Relative Strength Index)
+2. MACD-EMA (Moving Average Convergence Divergence - Exponential Moving Average)
+
+The optimization was applied to the following stock tickers: AAPL, MSFT, AMZN, GOOGL, TSLA, SPY, and QQQ.
+
+## Evaluation Metrics
+
+The performance of each strategy was evaluated based on several metrics:
+
+- Total Return
+- Average Return
+- Sharpe Ratio
+- Maximum Drawdown
+
+These metrics provide a comprehensive view of each strategy's performance, allowing us to balance returns against risk.
+
+## Optimization Parameters
+
+The best RSI parameters found were 80 for the overbought level and 35 for the oversold level. For the MACD-EMA strategy, the optimal parameters were a short EMA of 15 days and a long EMA of 100 days.
+
+## Optimization Results
+
+**Apple Inc. (AAPL)**: The MACD-EMA strategy outperformed the RSI strategy with a total return of 46.72%, compared to RSI's 24.50%. The Sharpe Ratio was higher for the MACD-EMA strategy (14.17 vs -23.28), indicating better risk-adjusted returns.
+
+**Microsoft Corp. (MSFT)**: Similar to AAPL, the MACD-EMA strategy outperformed the RSI strategy, albeit with a lower total return of 0.39% compared to RSI's 1.84%. The Sharpe Ratio was higher for the MACD-EMA strategy, suggesting better risk-adjusted returns.
+
+**Amazon.com Inc. (AMZN)**: The RSI strategy provided a higher total return of 20.38%, but the MACD-EMA strategy showed a higher Sharpe Ratio of 10.78, indicating better risk-adjusted returns.
+
+**Alphabet Inc. (GOOGL)**: The RSI strategy delivered a higher total return of 16.58%, but the MACD-EMA strategy had a higher Sharpe Ratio of 13.10, suggesting better risk-adjusted returns.
+
+**Tesla Inc. (TSLA)**: The MACD-EMA strategy outperformed the RSI strategy with a total return of 56.07% compared to RSI's 22.51%. The Sharpe Ratio was higher for the MACD-EMA strategy, indicating better risk-adjusted returns.
+
+**SPDR S&P 500 ETF Trust (SPY)**: The RSI strategy provided a higher total return of 1.34%, but the MACD-EMA strategy showed a higher Sharpe Ratio of 13.66, suggesting better risk-adjusted returns.
+
+**Invesco QQQ Trust (QQQ)**: The RSI strategy delivered a higher total return of 2.04%, but the MACD-EMA strategy had a higher Sharpe Ratio of 12.80, indicating better risk-adjusted returns.
+
+These results demonstrate the importance of parameter optimization and strategy selection for different stocks. It's crucial to note that past performance does not guarantee future results. Therefore, these strategies should be tested on out-of-sample data before live trading.
 
 ## Usage!
 
