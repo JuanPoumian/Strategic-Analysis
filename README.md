@@ -84,6 +84,14 @@ This analysis serves as a valuable tool for making informed investment decisions
 
 The investigation of these returns, along with the detailed examination of other market indicators, forms a core part of my data analysis project, aimed at providing a holistic understanding of the financial market landscape.
 
+![1-Year_Buy_and_Hold_Returns](https://github.com/JuanPoumian/Stock-Analysis-and-Visualization/assets/114705723/74310e13-93cd-4791-b84e-c1bd2cc7c778)
+
+![3-Year_Buy_and_Hold_Returns](https://github.com/JuanPoumian/Stock-Analysis-and-Visualization/assets/114705723/b197d50d-8641-4a3f-8f1c-880d45828715)
+
+![5-Year_Buy_and_Hold_Returns](https://github.com/JuanPoumian/Stock-Analysis-and-Visualization/assets/114705723/ba1b2cb6-e31d-4722-90d2-a8778f24c9f7)
+
+
+
 ## Usage!
 
 
