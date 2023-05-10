@@ -19,6 +19,44 @@ This project is an endeavor to illuminate the relative performance of different 
 - 5. **Data Visualization**:  Generates visual plots for stock price history, return distributions, and technical indicators, offering a clear visual understanding of stock performance and movements over time.
 - 6. **Investment Strategy Analysis**: Compares the performance of passive and active investment strategies on the selected stocks, including strategies like Buy-and-Hold (passive) and technical indicator-based trading rules (active).
 
+## Data Saving
+The processed data is saved into Excel files for future reference and further analysis. Both individual and combined dataframes are saved.
+
+## Column Descriptions
+
+- **Date**: Date of the stock observations (YYYY-MM-DD)
+- **Open**: Opening price of the stock on the trading day
+- **High**: Highest price reached by the stock during the trading day
+- **Low**: Lowest price reached by the stock during the trading day
+- **Close**: Closing price of the stock at the end of the trading day
+- **Adj Close**: Adjusted closing price that takes into account dividends and stock splits
+- **Volume**: Total volume of shares traded during the trading day
+- **ATR**: Average True Range, a measure of volatility based on price ranges over a period of time
+- **Returns**: Daily return of the stock, calculated as the percentage change in closing price
+- **Volatility**: Stock volatility, measured as the standard deviation of returns over a period of time
+- **SMA_50**: 50-day simple moving average of the closing price
+- **EMA_50**: 50-day exponential moving average of the closing price
+- **Upper**: Upper Bollinger Band, calculated as the sum of the simple moving average and twice the standard deviation of closing prices
+- **Middle**: Middle Bollinger Band, equal to the 50-day simple moving average
+- **Lower**: Lower Bollinger Band, calculated as the difference between the simple moving average and twice the standard deviation of closing prices
+- **RSI**: Relative Strength Index, a technical momentum indicator that measures the magnitude of recent price changes to evaluate overbought or oversold conditions
+- **MACD**: Moving Average Convergence Divergence, a technical indicator that measures the relationship between two exponential moving averages
+- **MACD Signal**: MACD signal line, calculated as the 9-day exponential moving average of the MACD
+- **Beta**: Stock beta coefficient, a measure of the stock's volatility relative to the overall market
+- **Ticker**: Stock's ticker symbol
+
+## Requirements
+
+The project uses Python as its core programming language, along with several libraries to aid in data retrieval, analysis, and visualization. These include:
+- datetime: for handling date and time data.
+- yfinance: to retrieve historical market data from Yahoo Finance.
+- pandas: for data manipulation and analysis.
+- numpy: for numerical computations.
+- matplotlib and seaborn: for data visualization.
+- ta: for technical analysis and computation of technical indicators.
+- fredapi: to access economic data from the Federal Reserve Bank of St. Louis.
+- scipy: for scientific and technical computing.
+
 ## Delving into Insights: A Brief Visual Showcase from My Exploratory Data Analysis Journey
 
 ![distribution](https://user-images.githubusercontent.com/114705723/236968375-38c66b04-5ec1-4dc9-9507-8f9a7021cd10.png)
@@ -145,46 +183,8 @@ Here's a glimpse of the charts I've generated, with Apple as an example:
 
 ![AAPL_RSI_strategy_1](https://github.com/JuanPoumian/Stock-Analysis-and-Visualization/assets/114705723/cbe33d8c-68d5-4382-bda7-e6682b368784)
 
-## Data Saving
-The processed data is saved into Excel files for future reference and further analysis. Both individual and combined dataframes are saved.
-
 ## Conclusion
-This project serves as a comprehensive tool for analyzing and comparing different investment strategies on selected equities. It provides both analytical and visual insights into the performance of these stocks, enabling users to make informed decisions about their investment strategies. Additionally, it lays a solid groundwork for building more complex trading algorithms and models.
+This work offers a robust platform for investment strategy analysis on chosen stocks, enabling data-driven decision-making for investors. It sets a strong foundation for the development of advanced trading models.
 
 ## Future Work
-While the project currently provides a robust analysis of selected stocks using predefined strategies, there's always room for enhancement. Future work could involve integrating more advanced trading strategies, incorporating machine learning algorithms for stock price prediction, or expanding the scope of the project to include other asset classes such as commodities, bonds, or cryptocurrencies.
-
-## Requirements
-
-The project uses Python as its core programming language, along with several libraries to aid in data retrieval, analysis, and visualization. These include:
-- datetime: for handling date and time data.
-- yfinance: to retrieve historical market data from Yahoo Finance.
-- pandas: for data manipulation and analysis.
-- numpy: for numerical computations.
-- matplotlib and seaborn: for data visualization.
-- ta: for technical analysis and computation of technical indicators.
-- fredapi: to access economic data from the Federal Reserve Bank of St. Louis.
-- scipy: for scientific and technical computing.
-
-## Column Descriptions
-
-- **Date**: Date of the stock observations (YYYY-MM-DD)
-- **Open**: Opening price of the stock on the trading day
-- **High**: Highest price reached by the stock during the trading day
-- **Low**: Lowest price reached by the stock during the trading day
-- **Close**: Closing price of the stock at the end of the trading day
-- **Adj Close**: Adjusted closing price that takes into account dividends and stock splits
-- **Volume**: Total volume of shares traded during the trading day
-- **ATR**: Average True Range, a measure of volatility based on price ranges over a period of time
-- **Returns**: Daily return of the stock, calculated as the percentage change in closing price
-- **Volatility**: Stock volatility, measured as the standard deviation of returns over a period of time
-- **SMA_50**: 50-day simple moving average of the closing price
-- **EMA_50**: 50-day exponential moving average of the closing price
-- **Upper**: Upper Bollinger Band, calculated as the sum of the simple moving average and twice the standard deviation of closing prices
-- **Middle**: Middle Bollinger Band, equal to the 50-day simple moving average
-- **Lower**: Lower Bollinger Band, calculated as the difference between the simple moving average and twice the standard deviation of closing prices
-- **RSI**: Relative Strength Index, a technical momentum indicator that measures the magnitude of recent price changes to evaluate overbought or oversold conditions
-- **MACD**: Moving Average Convergence Divergence, a technical indicator that measures the relationship between two exponential moving averages
-- **MACD Signal**: MACD signal line, calculated as the 9-day exponential moving average of the MACD
-- **Beta**: Stock beta coefficient, a measure of the stock's volatility relative to the overall market
-- **Ticker**: Stock's ticker symbol
+Potential future enhancements include integrating sophisticated trading strategies, applying machine learning for stock forecasting, and broadening the asset classes covered to include commodities, bonds, or cryptocurrencies.
