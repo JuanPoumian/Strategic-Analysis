@@ -143,7 +143,7 @@ Here's a glimpse of the charts I've generated, with Apple as an example:
 
 ![AAPL_MACD_EMA_strategy](https://github.com/JuanPoumian/Stock-Analysis-and-Visualization/assets/114705723/ee392972-95b4-4d1b-bfb1-daf8211de3ec)
 
-![AAPL_RSI_strategy](https://github.com/JuanPoumian/Stock-Analysis-and-Visualization/assets/114705723/c36a64d1-e4af-4a89-a79a-c72680348f9c)
+![AAPL_MACD_EMA_strategy_1](https://github.com/JuanPoumian/Stock-Analysis-and-Visualization/assets/114705723/c80263a5-b760-43b3-9a6b-3668799983da)
 
 ## Usage!
 
