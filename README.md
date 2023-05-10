@@ -21,7 +21,7 @@ This project is an endeavor to illuminate the relative performance of different 
 
 ## NOTE
 
-Each of these files respectively contains the distinct feature areas, providing a comprehensive and organized overview of our data attributes.
+Each of the files within this GitHub repository respectively contains the distinct feature areas, providing a comprehensive and organized view of our data attributes.
 
 - **Data_Retrieval_Cleaning_Analysis_Visualization.ipynb**: For Data Retrieval, Data Cleaning, Data Analysis and Data Visualization.
 - **Event Study Analysis for Economic Indicators.ipynb**: For Event Study Analysis for Economic Indicators.
