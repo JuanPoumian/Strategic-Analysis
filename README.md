@@ -25,11 +25,11 @@ This project is an endeavor to illuminate the relative performance of different 
 
 ![rsi](https://user-images.githubusercontent.com/114705723/236968545-fdce6023-8ccd-4ccf-b9ed-bab5c2dbafb0.png)
 
-![correlation](https://user-images.githubusercontent.com/114705723/236968584-45173819-54e9-47a9-bdde-9bedc2f7a858.png)
-
 ![volatility](https://github.com/JuanPoumian/Stock-Analysis-and-Visualization/assets/114705723/0db30719-577c-4ea5-be9a-9d009a2866d8)
 
 ![bollinger_bands](https://github.com/JuanPoumian/Stock-Analysis-and-Visualization/assets/114705723/2b54c6ac-022c-4ada-bde9-ea83cb48e796)
+
+![correlation](https://user-images.githubusercontent.com/114705723/236968584-45173819-54e9-47a9-bdde-9bedc2f7a858.png)
 
 ## Event Study Analysis for Economic Indicators
 
