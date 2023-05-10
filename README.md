@@ -145,17 +145,6 @@ Here's a glimpse of the charts I've generated, with Apple as an example:
 
 ![AAPL_RSI_strategy_1](https://github.com/JuanPoumian/Stock-Analysis-and-Visualization/assets/114705723/cbe33d8c-68d5-4382-bda7-e6682b368784)
 
-## Usage!
-
-
-*The project is organized into several functions that handle tasks such as data retrieval, computation of technical indicators, data cleaning, data saving, and plotting of data and indicators.
-
-*The project starts with defining the tickers of interest and the date range for which historical data is needed. The data is then downloaded, cleaned, and processed to calculate returns, volatility, and other technical indicators. The results are stored in separate dataframes for each ticker and also combined into a single dataframe for further analysis.
-
-*The project also includes several plotting functions that provide visualizations of the historical price data, return distributions, and technical indicators for each stock and index.
-
-*Lastly, the project checks for missing values in the data and calculates summary statistics, providing an overview of the distribution of returns and relation for each stock.
-
 ## Data Saving
 The processed data is saved into Excel files for future reference and further analysis. Both individual and combined dataframes are saved.
 
