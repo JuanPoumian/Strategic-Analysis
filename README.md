@@ -45,7 +45,10 @@ The culmination of this rigorous event study provides a panoramic view of the pe
 
 ![UNRATE_event_study](https://github.com/JuanPoumian/Stock-Analysis-and-Visualization/assets/114705723/93164d42-7534-4fe0-be79-c44dd71ede0f)
 
-[GDP_event_study](https://github.com/JuanPoumian/Stock-Analysis-and-Visualization/assets/114705723/947a323c-8607-480d-855e-d65820c00029)
+![GDP_event_study](https://github.com/JuanPoumian/Stock-Analysis-and-Visualization/assets/114705723/7a77394a-7bf9-40ed-89bc-f997d0be9439)
+
+
+
 
 ## Usage!
 
