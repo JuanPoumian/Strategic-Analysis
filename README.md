@@ -19,6 +19,14 @@ This project is an endeavor to illuminate the relative performance of different 
 - 5. **Data Visualization**:  Generates visual plots for stock price history, return distributions, and technical indicators, offering a clear visual understanding of stock performance and movements over time.
 - 6. **Investment Strategy Analysis**: Compares the performance of passive and active investment strategies on the selected stocks, including strategies like Buy-and-Hold (passive) and technical indicator-based trading rules (active).
 
+## NOTE
+
+Each of the files within this GitHub repository respectively contains the distinct feature areas, providing a comprehensive and organized view of our data attributes.
+
+- **Data_Retrieval_Cleaning_Analysis_Visualization.ipynb**: For Data Retrieval, Data Cleaning, Data Analysis and Data Visualization.
+- **Event Study Analysis for Economic Indicators.ipynb**: For Event Study Analysis for Economic Indicators.
+- **Passive and Active Strategies.ipynb**: For Investment Strategy Analysis.
+
 ## Data Saving
 The processed data is saved into Excel files for future reference and further analysis. Both individual and combined dataframes are saved.
 
