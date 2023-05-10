@@ -205,6 +205,3 @@ The detailed examination of these strategies reinforces the importance of data-d
 
 ## Future Work
 Potential future enhancements include integrating sophisticated trading strategies, applying machine learning for stock forecasting, and broadening the asset classes covered to include commodities, bonds, or cryptocurrencies.
-
-(poner los datos en excel en el repositorio.)
-y especificar cada archivo guardado.
